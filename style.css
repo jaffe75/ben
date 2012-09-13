@@ -137,7 +137,13 @@ section{
 
 
 
-
+section{
+	height: 300px;
+	width: 565px;
+}
+.red{background: red;}
+.blue{background: blue;}
+.green{background: green;}
 
 
 

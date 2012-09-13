@@ -3,7 +3,7 @@
 require_once( 'options-framework-plugin/options-framework.php' );
 	wp_enqueue_script('jquery');
  	wp_enqueue_script( 'jquery-cycle', get_bloginfo( 'template_directory' ) . '/js/jquery.cycle.all.js' );
-
+	wp_enqueue_script('jw_script', get_bloginfo('template_directory') . '/js/jw_script.js');
 
 /*
  * NOTES:

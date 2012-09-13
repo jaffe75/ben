@@ -25,6 +25,9 @@ get_header(); ?>
              </div><!-- home -->
             <!-- END HOME -->
 			<!-- need to put the info for the slider -->
+			<div class="section red"></div>
+			<div class="section blue"></div>
+			<div class="section green"></div>
 			
 			
 			

@@ -117,28 +117,24 @@ section{
 	height: 38px;
 	overflow: hidden; 
 	background: url(images/nav_bg.png);
+	z-index: 1000;
+	text-align: center;
 }
-.main-nav-menu ul{
-	width: 300px;
-	margin: 10px auto;
-}
-.main-nav-menu ul li{
-	display: inline;
-	margin-left: 20px;
-}
-.main-nav-menu ul li:first-child{
-	margin-left:0px;
-}
-.main-nav-menu ul li a{
+.main-nav-menu a{
 	text-decoration: none;
 	color: #fff;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+.main-nav-menu a:first-child{
+	margin-left: 0px;
 }
 
 
 
 
-section{
-	height: 300px;
+.section{
+	height: 250px;
 	width: 565px;
 }
 .red{background: red;}

@@ -26,7 +26,25 @@ get_header(); ?>
             <!-- END HOME -->
 			<!-- need to put the info for the slider -->
 			<div class="section red"></div>
-			<div class="section blue"></div>
+			        <div id="networks" class="section">
+		                <div class="innerpage">
+		                    <h2>Contact Me</h2>
+		                    <form action="" method="post" >
+		                        <p>
+		                            <input type="text" default="Subject" name="name" value="Your Name..." onblur="if (this.value == '') {this.value = 'Your Name...';}"
+		 onfocus="if (this.value == 'Your Name...') {this.value = '';}" />
+		                            <input type="text" default="Subject" name="email" value="Your Email..." onblur="if (this.value == '') {this.value = 'Your Email...';}"
+		 onfocus="if (this.value == 'Your Email...') {this.value = '';}"/></p>
+		                        <p><input type="text" default="Subject" name="subject" value="Subject..." onblur="if (this.value == '') {this.value = 'Subject...';}"
+		 onfocus="if (this.value == 'Subject...') {this.value = '';}" /></p>
+		                        <p><textarea name="body" rows="3" cols="60" onblur="if (this.value == '') {this.value = 'Message...';}"
+		 onfocus="if (this.value == 'Message...') {this.value = '';}">Message...</textarea></p>
+		                        <p><input type="submit" name="blobaugh_card_contact"/></p>
+		                        <input type="hidden" name="h1" value="" />
+		                        <input ytpe="hidden" name="h2" value="42" />
+		                    </form>
+		                </div>
+		            </div>
 			<div class="section green"></div>
 			
 			

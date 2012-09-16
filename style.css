@@ -158,9 +158,9 @@ section{
 	height: 250px;
 	width: 565px;
 }
-.red{background: red;}
-.blue{background: blue;}
-.green{background: green;}
+.section h2{
+	color: #f6f6f6;
+}
 
 
 

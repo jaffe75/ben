@@ -25,8 +25,71 @@ get_header(); ?>
              </div><!-- home -->
             <!-- END HOME -->
 			<!-- need to put the info for the slider -->
-			<div class="section red"></div>
-			        <div id="networks" class="section">
+			<div class="section">
+                <div class="innerpage">
+                    <h2>About Me</h2>
+                    
+                    <?php echo wpautop( $user->description ); ?>
+                </div>
+            </div>
+			<div class="section">
+                <div class="innerpage">
+                    <h2>Networks</h2>
+                    
+                    <ul class="social">
+                        
+                        <?php  ?>
+                        <li>
+                            <a class="socialbox" href="https://facebook.com/<?php echo $user->facebook; ?>" target="_BLANK" style="opacity: 1;">
+                                <img alt="facebook icon" src="<?php echo trailingslashit( bloginfo( 'template_directory' ) ); ?>images/social-icons/facebook.png">
+                                <strong>Facebook</strong>
+                                facebook.com/
+                            </a>
+                        </li>
+                        
+                        <li class="last">
+                            <a class="socialbox" href="http://linkedin.com/in/<?php echo $user->linkedin; ?>" target="_BLANK" style="opacity: 1;">
+                                <img alt="linkedin icon" src="<?php echo trailingslashit( bloginfo( 'template_directory' ) ); ?>images/social-icons/linkedin.png">
+                                <strong>LinkedIn</strong>
+                                linkedin.com/
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a class="socialbox" href="https://twitter.com/<?php echo $user->twitter; ?>" target="_BLANK" style="opacity: 1;">
+                                <img alt="" src="<?php echo trailingslashit( bloginfo( 'template_directory' ) ); ?>images/social-icons/twitter.png" style="margin-left: 2px;">
+                                <strong>Twitter</strong>
+                                twitter.com/
+                            </a>
+                        </li>
+                        
+                        <li class="last">
+                            <a class="socialbox" href="https://github.com/<?php echo $user->github; ?>" target="_BLANK" style="opacity: 1;">
+                                <img alt="github icon" src="<?php echo trailingslashit( bloginfo( 'template_directory' ) ); ?>images/social-icons/github.png">
+                                <strong>Github</strong>
+                                github.com/
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a class="socialbox" href="http://profiles.wordpress.org/<?php echo $user->wordpress; ?>" target="_BLANK">
+                                <img alt="wordpress icon" src="<?php echo trailingslashit( bloginfo( 'template_directory' ) ); ?>images/social-icons/wordpress.png">
+                                <strong>WordPress</strong>
+                                profiles.wordpress.org/
+                            </a>
+                        </li>
+                        
+                        <li class="last">
+                            <a class="socialbox" href="http://ben.lobaugh.net/gallery" style="opacity: 1;">
+                                <img alt="photos link image" src="<?php echo trailingslashit( bloginfo( 'template_directory' ) ); ?>images/social-icons/gallery.png">
+                                <strong>Photos</strong>
+                                ben.lobaugh.net/
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+			        <div class="section">
 		                <div class="innerpage">
 		                    <h2>Contact Me</h2>
 		                    <form action="" method="post" >
@@ -45,7 +108,6 @@ get_header(); ?>
 		                    </form>
 		                </div>
 		            </div>
-			<div class="section green"></div>
 			
 			
 			

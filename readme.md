@@ -1,4 +1,4 @@
 #Custom theme for Ben Lobaugh
 - changed html and css to clean up
 - maintained custom functionality built by Ben
-- Get this stupid slider to work
+- Slider working - automatically adds images to links, however, they are set and not dynamically created

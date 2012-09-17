@@ -174,10 +174,40 @@ input, textarea{
 	border-radius: 3px;
 	color: #666;
 }
-
-
-
-
+ul.social li{
+	background: rgba(0,0,0,.25);
+	float: left;
+	height: 45px;
+	margin: 0 30px 8px 0;
+	padding: 0 0 0 7px;
+	border-radius: 10px;
+	width: 195px;
+}
+ul.social li a{
+	color: #6D6D6D;
+	cursor: pointer;
+	float: left;
+	font: 10px/12px Verdana, sans-serif;
+	margin: 0;
+	padding: 0;
+	width: 195px;
+	text-decoration: none;
+}
+ul.social li a.socialbox img {
+float: left;
+height: 37px;
+margin: 6px 10px 0 0;
+width: 32px;
+}
+ul.social li a.socialbox strong {
+color: #3F3F3F;
+display: block;
+float: left;
+font: 15px/15px Verdana, sans-serif;
+margin: 4px 0;
+padding: 0;
+width: 100px;
+}
 
 
 

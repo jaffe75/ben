@@ -24,7 +24,7 @@ get_header(); ?>
                 </ul>
              </div><!-- home -->
             <!-- END HOME -->
-			<!-- need to put the info for the slider -->
+			<!-- Thus begins the rest of the sliders -->
 			<div class="section">
                 <div class="innerpage">
                     <h2>About Me</h2>

@@ -28,7 +28,7 @@ get_header(); ?>
 			<div class="section">
                 <div class="innerpage">
                     <h2>About Me</h2>
-                    
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                     <?php echo wpautop( $user->description ); ?>
                 </div>
             </div>
@@ -104,7 +104,7 @@ get_header(); ?>
 		 onfocus="if (this.value == 'Message...') {this.value = '';}">Message...</textarea></p>
 		                        <p><input type="submit" name="blobaugh_card_contact"/></p>
 		                        <input type="hidden" name="h1" value="" />
-		                        <input ytpe="hidden" name="h2" value="42" />
+		                        <input type="hidden" name="h2" value="42" />
 		                    </form>
 		                </div>
 		            </div>
